@@ -21,6 +21,14 @@ You see, some of these principles may look similar but they are not targeting **
 
 To make this as simple to follow, I will be using the word “**Class**” but note that it can also apply to a **Function**, **Method** or **Module** in this article.
 
+**Update**
+
+I got some comments about the Open Closed in this article violating the Single Responsibility Principle. Please note that the aim of this article is to explain each of these principles independent of the others.
+Also, Responsibilities(or Roles) are different from Actions. 
+
+In SRP, I used “I am Painter”, in Open-Closed, I used “I can Paint”.
+It is important to note this because several actions can be performed to fulfil a responsibility(or role). The class should have one responsibility(SRP) but its functionality that fulfils that responsibility should be open to extend(OCP).
+
 Now, let’s begin!
 
 
